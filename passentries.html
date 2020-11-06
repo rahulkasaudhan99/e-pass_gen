@@ -1,0 +1,375 @@
+
+
+
+<!DOCTYPE html>
+
+<title>
+	ONLINE FORM 
+</title>
+    <style>
+        .imagepre {
+            height: 140px;
+            width: 140px;
+            border-width: 0px;
+            margin: 5px;
+        }
+
+        span {
+            font-size: 25px;
+            color: red;
+            text-align: left;
+        }
+
+        .image {
+            height: 150px;
+            border: 1px solid;
+            width: 150px;
+            margin: 10px;
+            margin-left: 30%;
+        }
+
+        .red {
+            color: #e02222;
+            font-size: 12px;
+            padding-left: 2px;
+            font-weight: 400;
+        }
+
+        *, :after, :before {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 90%;
+            margin-left: 5%;
+            margin-bottom: 20px;
+        }
+
+        .banner {
+            height: 35%;
+            width: 100%;
+        }
+
+        html {
+            font-size: 10px;
+            -webkit-tap-highlight-color: transparent;
+            font-family: sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            display: block;
+            color: -internal-root-color;
+        }
+
+        *, :after, :before {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+
+        body {
+
+            background-color: #fffdd0;
+            color: #333;
+            padding: 0 !important;
+            margin: 0 !important;
+            direction: "ltr";
+            font-size: 14px;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            line-height: 1.42857;
+            color: #333;
+            display: block;
+        }
+
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Open Sans",sans-serif;
+        }
+
+        label {
+            margin-top: 1px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+
+        input, select, textarea {
+            outline: 0 !important;
+            box-shadow: none !important;
+            width: 250px;
+            height: 34px;
+            padding: 6px 12px;
+            background-color: #fff;
+            border: 1px solid #c2cad8;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            font-size: 14px;
+            line-height: 1.42857;
+            color: #555;
+            display: block;
+        }
+
+        input {
+            -webkit-writing-mode: horizontal-tb !important;
+            text-rendering: auto;
+            color: -internal-light-dark-color(black, white);
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            text-indent: 0px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: start;
+            -webkit-appearance: textfield;
+            background-color: -internal-light-dark-color(white, black);
+            -webkit-rtl-ordering: logical;
+            cursor: text;
+        }
+
+        .btn:not(.btn-sm):not(.btn-lg) {
+            line-height: 1.44;
+        }
+
+        .btn {
+            outline: 0 !important;
+        }
+
+        .btn, .form-control {
+            box-shadow: none !important;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+        }
+
+        .btn {
+            width: 10% !important;
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            touch-action: manipulation;
+            cursor: pointer;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .btntable {
+            width: 40% !important;
+        }
+
+        .aspNetDisabled {
+            background-color: #cccaca;
+        }
+
+        .heading {
+            font-size: 30px;
+            font-weight: 700;
+            color: black;
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+        function isNumber(evt) {
+            evt = (evt) ? evt : window.event;
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form name="form1" method="post" action="CitizenPassEntry.aspx" id="form1" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU4NzY3MTYyMw9kFgICAw8WAh4HZW5jdHlwZQUTbXVsdGlwYXJ0L2Zvcm0tZGF0YRYIAgMPEA8WBh4ORGF0YVZhbHVlRmllbGQFDWRpc3RyaWN0X2NvZGUeDURhdGFUZXh0RmllbGQFDWRpc3RyaWN0X25hbWUeC18hRGF0YUJvdW5kZ2QQFQIKLS1TZWxlY3QtLQlHb3Jha2hwdXIVAgItMQMwNTgUKwMCZ2dkZAIFDxBkZBYBZmQCDQ8PFgIeBFRleHQFCjE0LzA0LzIwMjBkZAIPDxBkZBYBZmRkK+OICe9eSRNRe7SnEkS5zI4R64Q=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACqpPMDs10d2U07Vt3/2Ce1XPGVxKCPAoLTaWTdv7M1DfnSEw1oqXPEZP/MftGaxWrehOTFSOeZLnRveUc1tP9YGRicP5EERq3OTvgIOpfetlq9B12vtjCEv929mujfSc3nn3RMJzr+jvZBuHzmZqgUQpaEuFvW5ivlCE9acIz0vYItBXClQ6wQcwYR6cML0t9omF6lhCUawau06no6sGsdht6uioHJzEI5F1VleZOGk+8oGmYhggT7wDQEs1TEKglIheD3FMUmDlY+9dh2tKauVMrSr94h1ppdN4qSfwwWSSRibAUg+CFsCgoDNfhU4Hs8YDgQ1IV5hns6467b+TGSzY9ZaCW2umemZjlvyMIjvn1wW/kSefOBfXHY1wehfGBzQgccR9AEyRKxFiziY6AwHrzeKXbDs7q8Gv5INIE6uF4qPotcUvx1S3/HyJ+K+HDWjOglmm5fGSk5UkpFsfK4el1X8P/1121k1JyJ3DD3TJxr6UGBqPOX4nf8hsEBP5syUBmZgZGV2ubmVtjVXJyVq0MMEl/uKV7f6N/PSZssQl9wPnUBPD4ZRlI1pF0p7mWyGmnx28Vkt4gh5W4v0SlVFieXX6/A9eTQqmDkk9152l3EYO1g97z8Gl/MvdlbOQRtd7Y+Df1LriAVY0f8h7DTYJubm1Nnr6jl1qBv8xP821//Oy6XuxLZwWxDi+d/4vjMe1MZCxRua1N8LuYmDYbEr2Ha6AULGX1y/IBxvqVFneTq54qygE3r7F6bRuZzTfymy4aYqlhf/fphNmZdLY3nQmo+dHUlcYdaxxI/U/S9ZXRGx9WodKfRJIRWpK1N4JUCWWIA8pj4q9GaeJhWM25CIvw3YufIv3bEOmi52CSFAZs34O/GfAV4V4n0wgFZHr3ffFmOkv/oWc6KhZF9K9R3FUwwe9A==" />
+</div>
+        <table>
+            <tr>
+                <td colspan="6">
+                    <img class="banner" src="passentry.png" style="border-width:0px;" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center" colspan="6" height="70px"><u>
+                    <label class="heading">ONLINE FORM</label></u></td>
+            </tr>
+            <tr>
+                <td>District<b class="red">*</b>
+                </td>
+                <td>
+                    <select name="ddlDistrict" id="ddlDistrict">
+	<option value="-1">--Select--</option>
+	<option value="058">Gorakhpur</option>
+
+</select>
+                </td>
+                <td>Select Pass Category<b class="red">*</b>
+                </td>
+                <td>
+                    <select name="ddlPassCategory" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlPassCategory\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlPassCategory">
+	<option selected="selected" value="-1">-Select-</option>
+	<option value="Essential Services Pass">Essential Services Pass</option>
+	<option value="Emergency Services Pass">Emergency Services Pass</option>
+
+</select>
+                </td>
+                <td>Select Sub Category<b class="red">*</b>
+                </td>
+                <td>
+                    <select name="ddlSubCategory" id="ddlSubCategory">
+	<option value="ATM/Banking">ATM/Banking</option>
+	<option value="Delivery Worker">Delivery Worker</option>
+	<option value="Fruit/Vegetable Vendor">Fruit/Vegetable Vendor</option>
+	<option value="Govt Officials">Govt Officials</option>
+	<option value="Grocery Vendor">Grocery Vendor</option>
+	<option value="Milk Vendor">Milk Vendor</option>
+	<option value="Health Worker">Health Worker</option>
+	<option value="IT/Tele Communication">IT/Tele Communication</option>
+	<option value="Movement of essential goods within State">Movement of essential goods within State</option>
+	<option value="Municipal Services">Municipal Services</option>
+	<option value="Power/Electricity">Power/Electricity</option>
+	<option value="Sanitation">Sanitation</option>
+	<option value="For Bringing Technician and driver to operate combine machine">For Bringing Technician and driver to operate combine machine</option>
+	<option value="Others">Others</option>
+
+</select>
+                </td>
+            </tr>
+            <tr>
+                <td>Name<b class="red">*</b></td>
+                <td>
+                    <input name="txtName" type="text" maxlength="50" id="txtName" style="border-width:1px;border-style:solid;" /></td>
+                <td>Mobile No<b class="red">*</b></td>
+                <td>
+                    <input name="txtMobNum" type="text" maxlength="10" id="txtMobNum" onkeypress="return isNumber(event)" style="border-width:1px;border-style:solid;" /></td>
+                 <td>Issue Date<b class="red">*</b></td>
+                <td>
+                    <input name="txtIssueDate" type="text" value="14/04/2020" id="txtIssueDate" disabled="disabled" placeholder="dd/MM/yyyy" style="background-color:#D7CDCD;border-width:1px;border-style:solid;" />
+                </td>
+            </tr>
+            <tr>
+                 <td>ID Type<b class="red">*</b>
+                </td>
+                <td>
+                    <select name="ddlIDType" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlIDType\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlIDType">
+	<option selected="selected" value="-1">-Select-</option>
+	<option value="Pancard">Pancard</option>
+	<option value="Driving License">Driving License</option>
+	<option value="Voter Card">Voter Card</option>
+	<option value="Ration Card">Ration Card</option>
+	<option value="Passport">Passport</option>
+	<option value="Passbook">Passbook</option>
+	<option value="Service ID Card">Service ID Card</option>
+	<option value="Other">Other</option>
+
+</select>
+                    
+                </td>
+                <td>Id Number<b class="red">*</b>
+                </td>
+                <td>
+                    <input name="txtIDNum" type="text" maxlength="50" id="txtIDNum" style="border-width:1px;border-style:solid;" />
+                </td>
+                <td>Valid UpTo<b class="red">*</b></td>
+                <td>
+                    <input name="txtValidUPTo" type="text" maxlength="10" id="txtValidUPTo" placeholder="dd/MM/yyyy" style="border-width:1px;border-style:solid;" />
+                </td>
+            </tr>
+            <tr>
+                 <td>Vehicle Number
+                </td>
+                <td>
+                    <input name="txtVehicleNum" type="text" maxlength="10" id="txtVehicleNum" style="border-width:1px;border-style:solid;" />
+                </td>
+             
+                <td>Address<b class="red">*</b></td>
+                <td>
+                    <textarea name="txtAddress" rows="2" cols="20" id="txtAddress" style="border-width:1px;border-style:solid;">
+</textarea>
+                    <div class="red">Max. length 100 characters</div>
+                </td>
+                 <td>Reason<b class="red">*</b></td>
+                <td>
+                    <textarea name="txtReason" rows="2" cols="20" id="txtReason" style="border-width:1px;border-style:solid;">
+</textarea>
+                    <div class="red">Max. length 100 characters</div>
+                </td>
+            </tr>
+            <tr>
+                <td >Attach Photo<b class="red">*</b></td>
+                <td>
+                    <input type="file" name="filePhoto" id="filePhoto" accept="image/png, image/jpeg" style="border-width:1px;border-style:solid;height:21px;width:100%;height:40px;" />
+                </td>
+                 <td>Attach ID Proof<b class="red">*</b></td>
+                <td>
+                    <input type="file" name="fsIDProof" id="fsIDProof" accept="image/png, image/jpeg" style="border-width:1px;border-style:solid;height:21px;width:100%;height:40px;" />
+                </td>
+                <td>Supporting Document</td>
+                <td>
+                    <input type="file" name="fsSupport" id="fsSupport" accept="image/png, image/jpeg" style="border-width:1px;border-style:solid;height:21px;width:100%;height:40px;" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"><div style="color:red"> Max Size 30 KB ,File Type : (.jpg,.png) </div></td>
+                <td colspan="2" align="right"><div style="color:red"> Max Size 100 KB ,File Type : (.jpg,.png)</div></td>
+                <td colspan="2" align="right"><div style="color:red"> Max Size 100 KB ,File Type : (.jpg,.png)</div></td>
+            </tr>
+
+            <tr>
+                <td colspan="6" style="text-align: center">
+                    <input type="submit" name="btnSave" value="Save" id="btnSave" class="btn btn-primary" style="border-width:1px;border-style:solid;" />
+                    <input type="submit" name="btnReset" value="Reset" id="btnReset" class="btn btn-primary" style="background-color:Red;border-width:1px;border-style:solid;" />
+                    <input type="submit" name="Button1" value="Back" id="Button1" class="btn btn-primary" style="background-color:Green;border-width:1px;border-style:solid;" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <span id="lblError"></span>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
